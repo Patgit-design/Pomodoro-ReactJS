@@ -1,10 +1,12 @@
 {
-  "name": "Pomodoro-ReactJS",
+  "name": "pomodoro",
   "version": "0.0.1",
   "description": "A small pomodoro with React",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint --fix --cache src"
+    "lint": "npx eslint --fix --cache src",
+    "work": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.14.3",
+    "@babel/preset-react": "^7.13.13",
     "@becode/eslint-config": "^0.12.1",
     "eslint": "^7.27.0",
     "eslint-plugin-prettier": "^3.4.0",
@@ -27,6 +30,7 @@
     "eslint-plugin-unicorn": "^32.0.1",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.0"
   },
   "lint-staged": {
@@ -41,5 +45,9 @@
     "hooks": {
       "pre-commit": "npx lint-staged"
     }
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
