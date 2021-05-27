@@ -1,7 +1,7 @@
-import React from "react";
 
-const Hello = ()=>(
-    <p>{"Hello World"}</p>
+
+const Hello = ({name})=>(
+    <p>{"Hello ${name}"}</p>
 );
 
 export default Hello;
