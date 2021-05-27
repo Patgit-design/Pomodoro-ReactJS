@@ -1,0 +1,45 @@
+{
+  "name": "Pomodoro-ReactJS",
+  "version": "0.0.1",
+  "description": "A small pomodoro with React",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint --fix --cache src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patgit-design/Pomodoro-ReactJS.git"
+  },
+  "keywords": [],
+  "author": "Patgit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patgit-design/Pomodoro-ReactJS/issues"
+  },
+  "homepage": "https://github.com/Patgit-design/Pomodoro-ReactJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
+    "@becode/eslint-config": "^0.12.1",
+    "eslint": "^7.27.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.json": [
+      "npx prettier --write"
+    ],
+    "*.js": [
+      "npx eslint --fix --cache"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  }
+}
