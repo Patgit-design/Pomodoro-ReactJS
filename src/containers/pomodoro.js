@@ -1,15 +1,15 @@
-import Hello from "../components/hello";
+import Display from "../components/display";
 import classnames from "classnames";
 
 
 const Pomodoro = () => {
-    const name = "Patricia";
+    const seconds = 1500;
 
     //to do: ajouter la logique
     return (
         <div className={classnames("columns", "is-mobile", "is-centered")}>
             <div className={classnames("colum", "is-half")}>
-                <Hello name={name} />
+                <Display seconds={seconds} />
 
             </div>
         </div>
