@@ -20,7 +20,7 @@ const Tools = ({ running = false, onMinus, onReset, onPlayPause, onPlus }) => (
         <Button
             label={running?"pause":"start"}
             title={`${running? "Pause":"Start"} the timer`}
-            disabled={running}
+           // disabled={running} !!!Quand actif pause ne fonctionne pas !
             onClick={onPlayPause}
         />
         {NBSP}
