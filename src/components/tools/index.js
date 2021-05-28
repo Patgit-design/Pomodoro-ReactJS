@@ -19,7 +19,7 @@ const Tools = ({ running = false, onMinus, onReset, onPlayPause, onPlus }) => (
         {NBSP}
         <Button
             label={running?"pause":"start"}
-            title={`${running? "Pause":"Start"}the timer`}
+            title={`${running? "Pause":"Start"} the timer`}
             disabled={running}
             onClick={onPlayPause}
         />
@@ -33,7 +33,7 @@ const Tools = ({ running = false, onMinus, onReset, onPlayPause, onPlus }) => (
     </div>
 );
 
-Tools.propsTypes={
+Tools.propTypes={
     running: PropTypes.bool, 
     onMinus: PropTypes.func.isRequired, 
     onReset: PropTypes.func.isRequired, 
