@@ -1,5 +1,25 @@
-## Pomodoro-ReactJS
+# Pomodoro-ReactJS
 
-### npm run work (to start the app)
 
-#### deploy: https://admiring-chandrasekhar-8ca532.netlify.app
+
+## About
+
+A small pomodoro with React, Bulma & Parcel.
+Hosted on [netlify](https://admiring-chandrasekhar-8ca532.netlify.app).
+
+
+
+### Making of ...
+
+Pomidor is a [BeCode](https://becode.org) project
+
+## Installation
+
+- `npm install`
+- `npm run build`
+
+## Usage
+
+Locally:
+
+- `npm run work`
