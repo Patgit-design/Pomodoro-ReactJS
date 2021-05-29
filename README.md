@@ -11,7 +11,7 @@ Hosted on [netlify](https://admiring-chandrasekhar-8ca532.netlify.app).
 
 ### Making of ...
 
-Pomidor is a [BeCode](https://becode.org) project
+Pomidor is a [BeCode challenge](https://github.com/becodeorg/CRL-Woods-4.27/tree/main/LearningPath/03.The-Mountain/12.React/5.pomodoro).
 
 ## Installation
 
